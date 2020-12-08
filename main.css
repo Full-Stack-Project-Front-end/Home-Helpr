@@ -49,3 +49,10 @@
   .carousel slide carousel-fade{
       z-index: 200;
   }
+  .col-md-4:hover{
+      transition: .7s;
+      position: relative;
+      top: 4px;
+      left: 4px;
+  }
+ 

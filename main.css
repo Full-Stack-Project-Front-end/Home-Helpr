@@ -9,6 +9,7 @@
   
   /* Style the icon bar links */
   .icon-bar a {
+      opacity: 0.4;
     display: block;
     text-align: center;
     padding: 16px;
@@ -16,7 +17,9 @@
     color: white;
     font-size: 20px;
   }
-  
+  .icon-bar a:hover{
+      opacity: 1;
+  }
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
     background-color: #000;
